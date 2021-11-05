@@ -21,4 +21,4 @@ if __name__ == '__main__':
     clf = LogisticRegression(C=100,max_iter=100000).fit(X_train, y_train)
     print("Accuracy on train data:", clf.score(X_train, y_train))
     print("Accuracy on test data:", clf.score(X_test, y_test))
-    print("Number of attributes:",len(clf.coef_[0]))
+    print("Number of attributes:", len(clf.coef_[0]))
